@@ -1,0 +1,150 @@
+@media  screen and (max-width:1270px) {
+.header1{
+    width: 100%;
+    box-sizing: border-box;
+    background-color:var(#ffffff)
+}
+#shopp{
+    font-size: 0.6rem;
+    margin-top: -10px;
+}
+.shop-logo{
+    width: 12%;
+}
+.pages{
+    column-gap: 35px;
+}
+a{
+    font-size: 0.8rem;
+}
+.head-icon i{
+    font-size: 1.3rem;
+}
+.parabox{
+    top: 200px;
+}
+.flex-area{
+    width: 100%;
+} 
+.myh1{
+    font-size: 1.2rem;
+}
+.myp1{
+    font-size: 0.7rem;
+    line-height: 20px;
+}
+.picdivv{
+  margin-top:5px  
+}
+.pictureless{
+    top: 20px;
+    left: 50px;
+
+}
+#petitelady{
+    margin-left: 90px;
+    margin-top: 270px;
+}
+.pictureless-head{
+    font-size: 1rem;
+}
+.pictureless-para{
+    font-size: 0.6rem;
+    line-height: 20px;
+}
+.flex-boxes{
+    column-gap: 0px;
+    justify-content: space-evenly;
+}
+.parabox {
+    margin: auto;
+    left: 0px;
+}
+.pic-box1, .pic-box2, .pic-box3,  .pic-box4{
+    width:21%;
+    column-gap: 0px;
+}
+#welcome {
+    font-size: 3.1rem;
+    margin: 7% 0px 0px 0px;
+}
+#confidence {
+    color: var(--Mywhite);
+    font-family: cursive;
+    text-align: center;
+    font-size: 0.8rem;
+    position: static;
+    bottom: 0px;
+}
+#div-with-two-divs {
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+.images-part {
+    width: 90%;
+    height: 785px;
+}
+
+.picss-box3 {
+    left: 35%;
+}
+.picss-box2 {
+    left: 70%;
+}
+.rent-section {
+    width: 100%;
+    height: auto;
+    background-color: var(--Mywhite);
+    border-bottom: 0px solid var(--Burgundy);
+}
+.word-part{
+    width: 66%;
+    height: 100px;
+}
+#RENT-OUTFITS-FOR-SPECIAL-DAYS{
+    font-size: 1.5rem;
+}
+#rent-outfits{
+    font-size: 0.7rem;
+}
+.align {
+    margin-left: 100px;
+    column-gap: 200px;
+}
+.enddiv {
+   display: none;
+}
+#the-end{
+    height: 300px;
+}
+}
+
+@media  screen and (max-width:790px){
+    .pages{
+        column-gap: 10px;
+    }
+    .shop-logo{
+        width: 16%;
+    }
+    #shopp{
+        font-size: 0.4rem;
+        margin-top:-9px;
+    }
+    #welcome{
+    font-size: 2rem;
+  }
+#confidence{
+    font-size: 0.6rem;
+}
+.flex-boxes{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+.pic-box1, .pic-box2, .pic-box3,  .pic-box4{
+    width:21%;
+    height: 100px
+}
+
+}
